@@ -9,7 +9,7 @@ public class ShaderChanger : MonoBehaviour
         Shader targetShader = Shader.Find("VRChat/Mobile/Toon Lit");
         if (targetShader == null)
         {
-            Debug.LogError("Cannot find the shader.")
+            Debug.LogError("Cannot find the shader.");
             return;
         }
 
